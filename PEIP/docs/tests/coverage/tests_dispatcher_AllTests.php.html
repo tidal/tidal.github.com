@@ -81,14 +81,14 @@
             </table>
           </td>
           <td class="coverPerLo">0.00%</td>
-          <td class="coverNumLo">0 / 3</td>
+          <td class="coverNumLo">0 / 4</td>
         </tr>
 
         <tr>
           <td class="tableHead" colspan="10">&nbsp;</td>
         </tr>
         <tr>
-          <td class="coverItem"><b><a href="#5">Dispatcher_AllTests</a></b></td>
+          <td class="coverItem"><b><a href="#6">Dispatcher_AllTests</a></b></td>
           <td class="coverBar" align="center" width="100">
             <table border="0" cellspacing="0" cellpadding="1">
               <tr>
@@ -115,11 +115,11 @@
             </table>
           </td>
           <td class="coverPerLo">0.00%</td>
-          <td class="coverNumLo">0 / 3</td>
+          <td class="coverNumLo">0 / 4</td>
         </tr>
 
         <tr>
-          <td class="coverFile" colspan="4">&nbsp;<a href="#6">public static function suite()</a></td>
+          <td class="coverFile" colspan="4">&nbsp;<a href="#7">public static function suite()</a></td>
           <td class="coverBar" align="center" width="100">
             <table border="0" cellspacing="0" cellpadding="1">
               <tr>
@@ -137,7 +137,7 @@
             </table>
           </td>
           <td class="coverPerLo">0.00%</td>
-          <td class="coverNumLo">0 / 3</td>
+          <td class="coverNumLo">0 / 4</td>
         </tr>
 
 
@@ -156,14 +156,16 @@
 <span class="lineNum" id="container1"><a name="1"></a><a href="#1" id="line1">       1</a> </span>                : &lt;?php                                                           
 <span class="lineNum" id="container2"><a name="2"></a><a href="#2" id="line2">       2</a> </span>                :                                                                 
 <span class="lineNum" id="container3"><a name="3"></a><a href="#3" id="line3">       3</a> </span>                : require_once __DIR__.'/ObjectMapDispatcherTest.php';            
-<span class="lineNum" id="container4"><a name="4"></a><a href="#4" id="line4">       4</a> </span>                :                                                                 
-<span class="lineNum" id="container5"><a name="5"></a><a href="#5" id="line5">       5</a> </span>                :  class Dispatcher_AllTests extends PHPUnit_Framework_TestSuite {
-<span class="lineNum" id="container6"><a name="6"></a><a href="#6" id="line6">       6</a> </span>                :      public static function suite(){                            
-<span class="lineNum" id="container7"><a name="7"></a><a href="#7" id="line7">       7</a> </span><span class="lineNoCov">              0 :         $suite = new PHPUnit_Framework_TestSuite('dispatcher'); </span>
-<span class="lineNum" id="container8"><a name="8"></a><a href="#8" id="line8">       8</a> </span><span class="lineNoCov">              0 :         $suite-&gt;addTestSuite('ObjectMapDispatcherTest');        </span>
-<span class="lineNum" id="container9"><a name="9"></a><a href="#9" id="line9">       9</a> </span><span class="lineNoCov">              0 :         return $suite;                                          </span>
-<span class="lineNum" id="container10"><a name="10"></a><a href="#10" id="line10">      10</a> </span><span class="lineDeadCode">                :     }                                                           </span>
-<span class="lineNum" id="container11"><a name="11"></a><a href="#11" id="line11">      11</a> </span>                : }                                                               
+<span class="lineNum" id="container4"><a name="4"></a><a href="#4" id="line4">       4</a> </span>                : require_once __DIR__.'/ObjectEventDispatcherTest.php';          
+<span class="lineNum" id="container5"><a name="5"></a><a href="#5" id="line5">       5</a> </span>                :                                                                 
+<span class="lineNum" id="container6"><a name="6"></a><a href="#6" id="line6">       6</a> </span>                :  class Dispatcher_AllTests extends PHPUnit_Framework_TestSuite {
+<span class="lineNum" id="container7"><a name="7"></a><a href="#7" id="line7">       7</a> </span>                :      public static function suite(){                            
+<span class="lineNum" id="container8"><a name="8"></a><a href="#8" id="line8">       8</a> </span><span class="lineNoCov">              0 :         $suite = new PHPUnit_Framework_TestSuite('dispatcher'); </span>
+<span class="lineNum" id="container9"><a name="9"></a><a href="#9" id="line9">       9</a> </span><span class="lineNoCov">              0 :         $suite-&gt;addTestSuite('ObjectMapDispatcherTest');        </span>
+<span class="lineNum" id="container10"><a name="10"></a><a href="#10" id="line10">      10</a> </span><span class="lineNoCov">              0 :         $suite-&gt;addTestSuite('ObjectEventDispatcherTest');      </span>
+<span class="lineNum" id="container11"><a name="11"></a><a href="#11" id="line11">      11</a> </span><span class="lineNoCov">              0 :         return $suite;                                          </span>
+<span class="lineNum" id="container12"><a name="12"></a><a href="#12" id="line12">      12</a> </span><span class="lineDeadCode">                :     }                                                           </span>
+<span class="lineNum" id="container13"><a name="13"></a><a href="#13" id="line13">      13</a> </span>                : }                                                               
 
 </pre>
         </td>
@@ -172,7 +174,7 @@
 
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr><td class="ruler"><img src="glass.png" width="3" height="3" alt=""></td></tr>
-      <tr><td class="versionInfo">Generated by <a href="http://www.phpunit.de/" target="_top">PHPUnit 3.4.11</a> and <a href="http://www.xdebug.org/" target="_top">Xdebug 2.1.0beta1</a> using <a href="http://www.php.net/" target="_top">PHP 5.3.0</a> at Mon Apr 12 11:54:48 CEST 2010.</td></tr>
+      <tr><td class="versionInfo">Generated by <a href="http://www.phpunit.de/" target="_top">PHPUnit 3.4.11</a> and <a href="http://www.xdebug.org/" target="_top">Xdebug 2.1.0beta1</a> using <a href="http://www.php.net/" target="_top">PHP 5.3.0</a> at Tue Apr 13 21:29:33 CEST 2010.</td></tr>
     </table>
 
     <br />
